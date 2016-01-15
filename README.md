@@ -12,7 +12,6 @@
 git clone git@github.com:rtorr/vscode.git
 
 cd vscode
-
 ```
 
 ## User Settings
