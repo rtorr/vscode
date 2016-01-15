@@ -1,0 +1,22 @@
+{
+	"version": "0.1.0",
+	"command": "make",
+	"isShellCommand": true,
+	"showOutput": "always",
+	
+  "tasks": [
+    {
+      "taskName": "dev",
+      "isBuildCommand": true,    
+      "args": ["dev"]
+    },
+    {
+      "taskName": "test",
+      "args": ["run_test"]
+    },
+    {
+      "taskName": "install",
+      "args": ["run_install"]
+    }
+  ]
+}
