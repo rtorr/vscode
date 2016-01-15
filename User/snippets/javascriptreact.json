@@ -52,10 +52,10 @@
 		"prefix": "action template",
 		"body": [
       "import LCARS from 'lcars';",
-      "export const FOO = 'FOO';",
-			"export function foo(value) {",
+      "export const ${1} = '${1}';",
+			"export function ${2}(value) {",
       "  LCARS.dispatch({",
-      "    type: FOO",
+      "    type: ${1},",
       "    data: value",
       "  });",
       "}",

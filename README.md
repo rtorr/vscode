@@ -11,25 +11,19 @@
 ```
 git clone git@github.com:rtorr/vscode.git
 
+cd vscode
+
 ```
 
 ## User Settings
 
 ```
-cp vscode/extentions ~/.vscode
-
-cp vscode/User ~/Library/Application\ Support/Code/
+make get_user_settings
 ```
 
 
 ## Project Settings
 
  ```
- 
- cp vscode/launch.json <your_project>/.vscode
- cp vscode/tasks.json <your_project>/.vscode
- cp vscode/tsconfig.json <your_project>
- cp vscode/tsd.json <your_project>
- cp vscode/jsconfig.json <your_project>
- 
+ make get_project_settings project_path=your/project/path/here
  ```
