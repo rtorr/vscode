@@ -2,6 +2,8 @@
 
 ## Install:
 
+* [Hack Font](https://github.com/chrissimpkins/Hack)
+
 * [vscode](https://code.visualstudio.com/)
 
 * https://github.com/DefinitelyTyped/tsd 
