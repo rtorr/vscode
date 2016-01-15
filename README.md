@@ -6,9 +6,16 @@
 
 * https://github.com/DefinitelyTyped/tsd 
 
+## Clone
+
 ```
 git clone git@github.com:rtorr/vscode.git
 
+```
+
+## User Settings
+
+```
 cp vscode/extentions ~/.vscode
 
 cp vscode/User ~/Library/Application\ Support/Code/
