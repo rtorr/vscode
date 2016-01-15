@@ -1,0 +1,74 @@
+{
+  
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+  
+  "Welp Component": {
+		"prefix": "welp component",
+		"body": [
+      "import React from 'react';",
+      "import { WelpComponent } from 'welp';",
+      "import Store from './Store';",
+			"class ${name} extends WelpComponent {",
+      "  constructor(props) {",
+      "    super(props, [Store]);",
+      "  }",
+      "  render() {",
+      "    return (",
+      "      <div>Hello ${name}</div>",
+      "    );",
+      "  }",
+      "}",
+      "export default ${name};",
+      ""
+		],
+		"description": "Welp component template"
+	},
+  
+  "Welp Store": {
+		"prefix": "welp store",
+		"body": [
+      "import { WelpStore } from 'welp';",
+			"const Store = new WelpStore(",
+      "  {},",
+      "  action => {",
+      "    switch (action.type) {",
+      "    }",
+      "  }",
+      ");",
+      "export default Store;",
+      ""
+		],
+		"description": "Welp store template"
+	},
+  
+  "Action Template": {
+		"prefix": "action template",
+		"body": [
+      "import LCARS from 'lcars';",
+      "export const FOO = 'FOO';",
+			"export function foo(value) {",
+      "  LCARS.dispatch({",
+      "    type: FOO",
+      "    data: value",
+      "  });",
+      "}",
+      ""
+		],
+		"description": "action template"
+	},
+  
+  "Action Const": {
+		"prefix": "action const",
+		"body": [
+      "export const ${name} = '${name}';"
+		],
+		"description": "action const"
+	}
+}

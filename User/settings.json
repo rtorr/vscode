@@ -7,5 +7,7 @@
   "editor.lineHeight": 18,
   "editor.scrollBeyondLastLine": false,
   "eslint.enable": true,
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "explorer.workingFiles.maxVisible": 0,
+  "explorer.workingFiles.dynamicHeight": false
 }
