@@ -1,0 +1,7 @@
+[
+   {"key": "cmd+1 cmd+1",       "command": "workbench.action.toggleSidebarVisibility" },
+   { "key": "cmd+2",            "command": "workbench.action.focusSideBar" },
+   { "key": "cmd+e",            "command": "workbench.action.openPreviousEditor" },
+   { "key": "ctrl+w ctrl+w",    "command": "workbench.action.cycleEditor" },
+   { "key": "ctrl+v",           "command": "workbench.action.splitEditor" }
+]

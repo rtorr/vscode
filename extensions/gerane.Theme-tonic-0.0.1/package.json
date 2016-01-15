@@ -1,0 +1,36 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "4b670e9d-4751-4692-95ba-04840a1321f3",
+		"downloadUrl": "https://gerane.gallery.vsassets.io/_apis/public/gallery/publisher/gerane/extension/Theme-tonic/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+		"publisherId": "a5c25faf-bf60-4941-81b9-9a852b96c5fb",
+		"publisherDisplayName": "gerane",
+		"date": "2015-11-22T08:18:30.467Z"
+	},
+	"name": "Theme-tonic",
+	"displayName": "tonic Theme",
+	"description": "tonic Theme ported from the tonic TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-tonic/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gerane/VSCodeThemes.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "tonic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tonic.tmTheme"
+			}
+		]
+	}
+}

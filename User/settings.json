@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"javascript.validate.target": "ES6",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Hack",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 18,
+  "editor.scrollBeyondLastLine": false,
+  "eslint.enable": true,
+  "javascript.validate.enable": false
+}

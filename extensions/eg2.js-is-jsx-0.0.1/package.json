@@ -1,0 +1,34 @@
+{
+	"__metadata": {
+		"galleryApiUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+		"id": "a97dd63e-db28-48aa-ab21-c411b744aa2b",
+		"downloadUrl": "https://eg2.gallery.vsassets.io/_apis/public/gallery/publisher/eg2/extension/js-is-jsx/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?install=true",
+		"publisherId": "0b5821dc-b7ab-4fa0-bcee-c2add1d8f9db",
+		"publisherDisplayName": "egamma2",
+		"date": "2015-12-17T14:33:33.78Z"
+	},
+	"name": "js-is-jsx",
+	"displayName": "JS is JSX overwrite",
+	"description": "Overwrites the file mapping of java script files so that they are treated like .jsx files",
+	"version": "0.0.1",
+	"publisher": "eg2",
+	"engines": {
+		"vscode": "^0.10.x"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "javascriptreact",
+				"aliases": [
+					"JavaScript React"
+				],
+				"extensions": [
+					".js"
+				]
+			}
+		]
+	}
+}
