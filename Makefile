@@ -3,8 +3,8 @@ update:
 	cp -r ~/.vscode .
   
 get_user_settings:
-	cp ./.vscode ~/.vscode
-	cp ./User ~/Library/Application\ Support/Code/
+	cp -r ./.vscode ~/.vscode
+	cp -r ./User ~/Library/Application\ Support/Code/
   
 get_project_settings:
 	cp project_settings/* ${project_path}
