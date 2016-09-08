@@ -1,13 +1,19 @@
 // Place your settings in this file to overwrite the default settings
 {
-	"javascript.validate.target": "ES6",
+  "javascript.validate.target": "ES6",
   "editor.tabSize": 2,
   "editor.fontFamily": "Hack",
   "editor.fontSize": 12,
   "editor.lineHeight": 18,
   "editor.scrollBeyondLastLine": false,
-  "eslint.enable": true,
+  "eslint.enable": false,
+  "jshint.enable": false,
   "javascript.validate.enable": false,
   "explorer.workingFiles.maxVisible": 0,
-  "explorer.workingFiles.dynamicHeight": false
+  "explorer.workingFiles.dynamicHeight": false,
+  "files.autoSave": "onFocusChange",
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.showTabs": false,
+  "update.channel": "none",
+  "explorer.openEditors.dynamicHeight": false  
 }
