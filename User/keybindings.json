@@ -1,6 +1,14 @@
 [
-   {"key": "cmd+1 cmd+1",       "command": "workbench.action.toggleSidebarVisibility" },
+   { "key": "cmd+1 cmd+1",      "command": "workbench.action.toggleSidebarVisibility" },
    { "key": "cmd+2",            "command": "workbench.action.focusSideBar" },
-   { "key": "ctrl+w ctrl+w",    "command": "workbench.action.cycleEditor" },
-   { "key": "ctrl+v",           "command": "workbench.action.splitEditor" }
+   { "key": "ctrl+w ctrl+w",    "command": "workbench.action.navigateEditorGroups" },
+   { "key": "ctrl+v",           "command": "workbench.action.splitEditor" },
+   { "key": "shift+enter",      "command": "editor.action.insertLineAfter", "when": "editorTextFocus" },
+   { "key": "ctrl+d ctrl+d",    "command": "editor.action.deleteLines",     "when": "editorTextFocus" },
+   { "key": "ctrl+right",       "command": "cursorWordRight",               "when": "editorTextFocus" },
+   { "key": "ctrl+tab", "command": "workbench.action.openPreviousEditorFromHistory" },
+   { "key": "ctrl+tab", "command": "workbench.action.quickOpenNavigateNext", "when": "inQuickOpen" },
+   { "key": "cmd+e", "command": "workbench.action.openPreviousEditorFromHistory" },
+   { "key": "cmd+e", "command": "workbench.action.quickOpenNavigateNext", "when": "inQuickOpen" },
+   { "key": "cmd+w", "command": "workbench.action.closeEditorsInGroup" }
 ]
